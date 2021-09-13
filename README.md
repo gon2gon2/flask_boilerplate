@@ -3,8 +3,7 @@
 
 ## 실행 순서
 ### 리눅스 계열
-1. 
-source venv/bin/activate 를 커맨드에서 입력
+1. source venv/bin/activate 를 커맨드에서 입력
 2. pip install -r requirements.txt 를 커맨드에서 입력
 3. sh init.sh를 입력
 4. sh run.sh를 실행
