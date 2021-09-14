@@ -26,3 +26,7 @@ def create_app():
     migrate.init_app(app, db)
     
     return app
+
+if __name__ == '__init__':
+    app = create_app()
+    app.run()
