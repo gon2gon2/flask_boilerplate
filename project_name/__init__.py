@@ -10,8 +10,6 @@ migrate = Migrate()
 
 def create_app():
     
-    from .models import User
-    
     app = Flask(__name__)
     app.config.from_object(config)
     app.secret_key = "쉿, 비밀이야"
@@ -26,7 +24,3 @@ def create_app():
     migrate.init_app(app, db)
     
     return app
-
-if __name__ == '__init__':
-    app = create_app()
-    app.run()
