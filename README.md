@@ -1,6 +1,7 @@
 # flask_boilerplate
 - flask 프로젝트를 위한 기본적인 셋팅을 도와줍니다.
 - 현재 db가 SQLite로 설정되어 있습니다. 다른 RDBMS를 쓰고 싶으시다면 알잘딱깔센
+- 처음 하시는 분들은 가이드 영상을 보면서 따라해주세요.
 
 # 실행 방법, 순서
 ### 준비물
@@ -11,17 +12,16 @@
 ### 1. 폴더 만들기
 - 빈 폴더를 생성한다.
     - 예: "mkdir project"
-### 2. git clone
-1. 방금 생성한 폴더에 들어간다.
+### 2. 방금 생성한 폴더에 들어간다.
     - 예: "cd project"
-2. 해당 위치에 git clone한다. (맨 뒤의 점까지)
+### 3. 해당 위치에 git clone한다. (맨 뒤의 점까지)
     - "git clone https://github.com/gon2gon2/flask_boilerplate ."
     - 리눅스인 경우: git checkout linux 도 실행.
-3. 내 프로젝트로 이름 바꾸기
+### 4. 내 프로젝트로 이름 바꾸기
     - 현재 디렉토리의 project_name 폴더명을 내 프로젝트 이름으로 변경 (예: library)
     - project_name/views/models.py 의 3번 라인 "from ~~~ import db"
     - config.py의 5번 라인 '~~~.db'
-4. 가상환경과 db 생성
+### 5. 가상환경과 db 생성
     - Windows
         1. pip install virtualenv
         2. virtualenv venv
