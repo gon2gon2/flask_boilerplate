@@ -17,8 +17,8 @@
     - "git clone https://github.com/gon2gon2/flask_boilerplate ."
     - 리눅스인 경우: git checkout linux 도 실행.
 ### 4. 내 프로젝트로 이름 바꾸기
-    - 현재 디렉토리의 project_name 폴더명을 내 프로젝트 이름으로 변경 (예: library)
     - project_name/views/models.py 의 3번 라인 "from ~~~ import db"
+    - 현재 디렉토리의 project_name 폴더명을 내 프로젝트 이름으로 변경 (예: library)
     - config.py의 5번 라인 '~~~.db'
 ### 5. 가상환경과 db 생성
     - Windows
