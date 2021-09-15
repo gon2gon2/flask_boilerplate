@@ -6,9 +6,6 @@ __pycache__
 .flaskenv
 *.pyc
 *.pyo
-env/
-venv/
-.venv/
 env*
 dist/
 build/
