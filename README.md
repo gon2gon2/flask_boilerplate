@@ -25,14 +25,16 @@
         1. pip install virtualenv
         2. virtualenv venv
         3. activate
-        4. db
-        5. run
+        4. pip install -r requirements.txt
+        5. db
+        6. run
     - Linux
         1. pip3 install virtualenv
         2. virtualenv venv
         3. source venv/bin/activate
-        4. sh ./db.sh
-        5. sh ./run.sh
+        4. pip3 install -r requirements.txt
+        5. sh ./db.sh
+        6. sh ./run.sh
 ---
 ## 초기 설정 이후
 <b>1.db.cmd 혹은 db.sh 파일 내용을 수정해주세요.</b>
